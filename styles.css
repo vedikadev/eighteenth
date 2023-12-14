@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    overflow: scroll;
+}
+.home{
+    background: linear-gradient(180deg, #AB8748 25.1%, #EAC9A1 100%);
+    width: 100%;
+    height: 729px;
+}
+a{
+    text-decoration: none;
+    color: #324434;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Medula One';
+    transition: transform 0.3s;
+}
+.logo img{
+    width: 180px;
+    height: 130px;
+}
+.menu a{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: 15px;
+    margin: 20px;
+    display: inline-block;
+}
+.menu a:hover{
+    transform: scale(1.2);
+}
+.sp a{
+    font-size: 50px;
+    font-family: 'Whisper', cursive;
+    margin-right: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    display: block;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+.sp a:hover{
+    transform: scale(1.1);
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.girl img{
+    height: 599px;
+    width: auto;
+    float: right;
+}
+.text{
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 45px;
+    color: #324434;
+    margin-top: 125px;
+    margin-left: 300px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text .special{
+    font-size: 30px;
+    font-family: 'whisper', cursive;
+    font-weight: 700;
+    color: #EAC9A1;
+    background-color: #324434;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 30px;
+    box-shadow: 0 0 20px 5px #32443479;
+    letter-spacing: 2.25px;
+}
+.diff{
+    background-color: #1F2E2B;
+    width: 100%;
+    height: 740px;
+    box-shadow: 0 0 20px 5px #00000093;
+}
+.diff h1{
+    color: #EAC9A1;
+    text-align: center;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 40px;
+    letter-spacing: 4.48px;
+    padding: 20px;
+    padding-top: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.diff div{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 500px;
+    width: 20%;
+    background-color: #EAC9A1;
+    border-radius: 20px;
+    margin: 30px;
+    transition: transform 0.5s;
+    box-shadow: 0 0 20px 5px #00000093;
+}
+.diff div:hover{
+    transform: scale(1.1);
+}
+.diff img{
+    height: 60%;
+    width: 85%;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.diff p{
+    padding: 20px;
+    display: block;
+    font-family: 'Medula One';
+    font-size: 25px;
+    text-align: center;
+    color: #324434;
+    padding-top: 30px;
+}
+p.cll{
+    margin-left: 15%;
+}
+div.first{
+    margin-left: 60px;
+}
+.thought{
+    width: 100%;
+    height: 729px;
+    background-color: #1F2E2B;
+}
+.thought p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bowlby One SC', sans-serif;
+    padding: 40px;
+    color: #EAC9A1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.thought .top1{
+    padding-top: 100px;
+}
+.t2{
+    width: 100%;
+    height: 770px;
+    background-color: #EAC9A1;
+}
+.t2 img{
+    width: 200px;
+    height: 175px;
+    border-radius: 10px;
+    border: 10px solid #1F2E2B;
+    margin: 20px 50px;
+}
+.t2 .images{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.t2 .para{
+    color: #324434;
+    text-align: center;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 36px;
+    letter-spacing: 2.52px;
+    padding: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.para p{
+    padding: 45px;
+}
+.letter{
+    width: 100%;
+    height: 730px;
+    background-color: #1F2E2B;
+    box-shadow: 0 5px 20px 5px #00000093;
+}
+.letter h1{
+    color: #EAC9A1;
+    text-align: center;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 40px;
+    letter-spacing: 4.48px;
+    padding: 30px;
+    padding-top: 50px;
+}
+.letter p{
+    letter-spacing: 2.52px;
+    color: #EAC9A1;
+    font-family: 'Whisper';
+    font-size: 25px;
+    padding: 50px;
+    font-weight: 500;
+}
+.footer img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px 5px #00000093;
+}
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color: #1F2E2B;
+}
+.footer .tagl{
+    color: #EAC9A1;
+    text-align: center;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 40px;
+    margin: 50px auto;
+    letter-spacing: 4.48px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer .des{
+    color: #EAC9A1;
+    text-align: center;
+    font-family: 'Medula One';
+    font-size: 28px;
+}
+.goto{
+    font-size: 25px;
+    color: #EAC9A1;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+    text-decoration: underline;
+}
+.vedika{
+    color: #EAC9A1;
+    text-decoration: underline;
+}
